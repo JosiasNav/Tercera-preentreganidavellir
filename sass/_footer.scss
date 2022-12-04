@@ -1,0 +1,26 @@
+//Pie de pagina
+
+.footer { grid-area: footer;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .redesfooter{
+        display: flex;
+        margin-top: 5px;
+        justify-content: space-between
+     }
+
+     .titulofooter{
+        display: flex;
+        justify-content: flex-start;
+     }
+     
+     .copy{
+        display: flex;
+        margin: 10px;
+     }
+ }

@@ -1,0 +1,22 @@
+
+.header { grid-area: header; 
+    display: flex;
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box; 
+    background: black; 
+    color: rgb(255, 255, 255);
+
+    nav a{
+        font-weight: 600;
+        padding-right: 10px;
+        color: red;
+    }
+
+    nav a:hover {
+        color: rgba(6, 255, 39, 0.996);
+    }
+   
+}
