@@ -21,6 +21,9 @@
         background-color: #232526;
         color: white;
     }
+    .titulonoti{
+        font-size: 15px;
+    }
     .Titular{
         font-family: 'Oswald', sans-serif;
         color: white;
@@ -28,10 +31,13 @@
         border-radius: 50px;
         padding: 10px;
         margin: 5px;
-        font-size: 30px;
+        font-size: 10px;
+    }
+    .titulocontacto{
+        font-size: 15px;
     }
     .titulosecnoticias{
-        font-size: 35px;
+        font-size: 10px;
         color:#B02C2C;
     }
     img{
@@ -41,10 +47,21 @@
         display: flex;
         justify-content: center;
     }
-    
+
     .redes{
         display: flex;
         justify-content: center;
         width: 200px;
+    }
+    .rolesguia{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .imgrol{
+        margin: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 30%;
     }
 }
